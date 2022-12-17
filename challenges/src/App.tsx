@@ -1,7 +1,5 @@
 import React from 'react'
-import ColorRenderer from './desafios/01-color_renderer/ColorRenderer'
-import DarkMode from './desafios/02-dark_mode/DarkMode'
-import Form from './desafios/03-form_validator/Form'
+import DogPictures from './desafios/04-dog_pictures/DogPictures'
 
 const App = () => {
   const style = {
@@ -13,9 +11,7 @@ const App = () => {
 
   return (
     <main style={style}>
-      {/* <ColorRenderer /> */}
-      {/* <DarkMode /> */}
-      <Form />
+      <DogPictures />
     </main>
   )
 }
