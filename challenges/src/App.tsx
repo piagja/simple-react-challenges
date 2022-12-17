@@ -1,18 +1,13 @@
 import React from 'react'
-import DogPictures from './desafios/04-dog_pictures/DogPictures'
+import ScoreKeeper from './desafios/05-score_keeper/ScoreKeeper'
+
+import './app.css'
 
 const App = () => {
-  const style = {
-    height: '100vh',
-    width: '100vw',
-    display: 'flex',
-    justifyContent: 'center'
-  }
-
   return (
-    <main style={style}>
-      <DogPictures />
-    </main>
+    <>
+      <ScoreKeeper />
+    </>
   )
 }
 

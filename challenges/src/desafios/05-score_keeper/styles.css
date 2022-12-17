@@ -1,0 +1,32 @@
+.score-keeper__title {
+  text-align: center;
+}
+
+.score-keeper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-sum, .button-minus {
+  width: 100px;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  margin: 0 20px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.score {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.score-error {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
