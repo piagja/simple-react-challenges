@@ -1,12 +1,12 @@
 import React from 'react'
-import WindowEvent from './desafios/06-window_event/WindowEvent'
 
 import './app.css'
+import ColorPicker from './desafios/07-color_picker/ColorPicker'
 
 const App = () => {
   return (
     <>
-      <WindowEvent />
+      <ColorPicker />
     </>
   )
 }
