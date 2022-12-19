@@ -1,12 +1,12 @@
 import React from 'react'
 
 import './app.css'
-import ColorPicker from './desafios/07-color_picker/ColorPicker'
+import PixelArt from './desafios/08-pixel_art/PixelArt'
 
 const App = () => {
   return (
     <>
-      <ColorPicker />
+      <PixelArt />
     </>
   )
 }
