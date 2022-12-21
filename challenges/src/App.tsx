@@ -1,12 +1,12 @@
 import React from 'react'
 
 import './app.css'
-import PixelArt from './desafios/08-pixel_art/PixelArt'
+import Calculator from './desafios/09-simple_calculator/Numbers'
 
 const App = () => {
   return (
     <>
-      <PixelArt />
+      <Calculator />
     </>
   )
 }

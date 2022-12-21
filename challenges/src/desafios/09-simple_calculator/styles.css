@@ -1,0 +1,31 @@
+.calc_numbers {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.calc_button_numbers {
+  display: flex;
+}
+
+.the_number_buttons {
+  margin-left: 1rem;
+  width: 40px;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+}
+
+.numbers_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.operations_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
