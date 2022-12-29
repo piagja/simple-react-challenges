@@ -1,0 +1,45 @@
+.shopping-cart {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.items-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 25px;
+}
+
+.items-cart_section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+
+.items-cart_section h2 {
+  text-align: center;
+}
+
+.items_section button,
+.cart_section button {
+  height: 40px;
+  width: 100px;
+  background: transparent;
+  border: 0.01px solid #afafaf;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.items_section button:hover,
+.cart_section button:hover {
+  box-shadow: 1px -1px 41px -22px rgba(0, 0, 0, 0.45) inset;
+  transition: all ease-in-out 0.3s;
+}

@@ -1,12 +1,12 @@
 import React from 'react'
 
 import './app.css'
-import InputFocus from './desafios/10-input_focus/InputFocus'
+import ShoppingCart from './desafios/11-simple_shopping_cart/ShoppingCart'
 
 const App = () => {
   return (
     <>
-      <InputFocus />
+      <ShoppingCart />
     </>
   )
 }
